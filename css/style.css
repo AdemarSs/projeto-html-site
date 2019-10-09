@@ -183,7 +183,7 @@ h3 {
 
 
 /*====================================================
-                       SERVICES
+                       SERVIÇOS
 ======================================================*/
 
 .service-item {
@@ -220,7 +220,7 @@ h3 {
 
 
 /*====================================================
-                       ABOUT
+                       HISTORIA
 ======================================================*/
 
 #about-bg-diagonal {
@@ -262,7 +262,7 @@ h3 {
 
 
 /*====================================================
-                       WORK
+                       PORTIFOLIO
 ======================================================*/
 
 .row.no-gutters [class*=col-] {
@@ -288,37 +288,9 @@ h3 {
 }
 
 
-/*====================================================
-                       TEAM
-======================================================*/
-
-.team-member {
-    margin: 0 15px;
-}
-
-.team-member-info {
-    padding: 10px 0 30px 0;
-}
-
-h4.team-member-name {
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding-top: 2px;
-}
-
-h4.team-member-designation {
-    color: #34c6d3;
-    font-size: 15px;
-    font-weight: 700;
-    font-style: italic;
-    letter-spacing: 1px;
-    margin-top: 5px;
-}
-
 
 /*====================================================
-                       SOCIAL
+                       MIDIA SOCIAL
 ======================================================*/
 
 .social-list {
@@ -352,73 +324,7 @@ h4.team-member-designation {
 
 
 /*====================================================
-                       TESTIMONIALS
-======================================================*/
-
-#testimonials-cover {
-    background-image: url("../img/bg-testimonials.jpg");
-}
-
-#testimonials .content-box {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-#customers-testimonials {
-    padding: 50px 0;
-}
-
-.testimonial img {
-    max-width: 120px;
-    margin: 0 auto 0 auto;
-}
-
-.testimonial blockquote {
-    border: 0;
-    font-family: Georgia, sans-serif;
-    font-style: italic;
-    color: #fff;
-    padding: 6px 150px;
-    position: relative;
-}
-
-.testimonial blockquote p {
-    color: #fff;
-}
-
-.testimonial blockquote::before,
-.testimonial blockquote::after {
-    font-size: 80px;
-    font-style: normal;
-    line-height: 1;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-}
-
-.testimonial blockquote::before {
-    content: "\201C";
-    top: 0;
-    left: 100px;
-}
-
-.testimonial blockquote::after {
-    content: "\201D";
-    bottom: 0;
-    right: 100px;
-}
-
-.testimonial-author p {
-    color: #fff;
-    font-size: 17px;
-}
-
-.testimonial-author p strong {
-    display: block;
-}
-
-
-/*====================================================
-                       PRICING
+                       PROMOÇÕES
 ======================================================*/
 
 .pricing-box {
@@ -477,52 +383,7 @@ ul.pricing-spec li p {
 
 
 /*====================================================
-                       STATS
-======================================================*/
-
-#stats-cover {
-    background-image: url("../img/bg-stats.jpg");
-}
-
-#stats .content-box {
-    background-color: rgba(0, 0, 0, .8);
-}
-
-.stats-item {
-    padding: 100px 0;
-}
-
-.stats-item i {
-    color: #34c6d3;
-}
-
-.stats-item h2 {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-bottom: 1px;
-}
-
-.stats-item p {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-top: 0;
-}
-
-
-/*====================================================
-                       CLIENTS
-======================================================*/
-
-.client {
-    padding: 40px 0;
-}
-
-
-/*====================================================
-                       CONTACT
+                       CONTATO
 ======================================================*/
 
 footer {
@@ -625,6 +486,11 @@ form .form-control {
     transition: all .5s ease-in-out;
 }
 .vesco-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.vesco-top-nav2 {
     background: rgba(0, 0, 0, 0.7);
     padding: 7px 0;
 }

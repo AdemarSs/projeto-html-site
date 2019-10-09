@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65" style="background-color: #64707b">
 
         <header>
                 <nav class="navbar navbar-fixed-top vesco-top-nav2">
@@ -56,9 +56,9 @@
                                         <li><a href="index.html#hairstyle">Roberta Hairstyle</a></li>
                                         <li><a href="index.html#portfolio">Portfólio</a></li> 
                                         <li><a href="minha-historia.html#historia">Minha História</a></li>                                                             
-                                        <li><a class="smooth-scroll" href="#promocoes">Promoções</a></li>
+                                        <li><a href="promocoes.html#promocoes">Promoções</a></li>
                                         <li><a href="tabela-precos.html#precos">Tabela de Preços</a></li>
-                                        <li><a href="orcamentos.html#orcamento">Orçamento</a></li>
+                                        <li><a class="smooth-scroll" href="#orcamento">Orçamento</a></li>
                                         <li><a class="smooth-scroll" href="#contact">Contato</a></li>
                                 </ul>
                             </div>
@@ -68,7 +68,7 @@
             </header>
 
 
-<section id="promocoes">
+<section id="orcamento">
 <br>
 <br>
 <br>
@@ -76,80 +76,26 @@
 
     <div class="content-box">
         <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-            <h3> Promoções </h3>
+            <h3> Orçamento </h3>
             <div class="content-title-underline"></div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
-                    <div class="pricing-box text-center">
-                        <h4 class="pricing-title">Formanda</h4>
-                        <h3 class="pricing-value">249<sup>R$</sup></h3>
-                        <ul class="pricing-spec">
-                            <li>
-                                <p>ESCOVA</p>
-                            </li>
-                            <li>
-                                <p>BABYLISS</p>
-                            </li>
-                            <li>
-                                <p>PENTEADO PERSONALIZADO</p>
-                            </li>
-                            <li>
-                                <p>MAKEUP</p>
-                            </li>
-                        </ul>
-                        <div class="pricing-btn">
-                            <a class="btn btn-lg btn-general btn-blue" href="orcamentos.html" role="button">ORÇAMENTO</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 wow animated bounceInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                    <div class="pricing-box pricing-box-lg text-center">
-                        <h4 class="pricing-title">DIA DE NOIVA</h4>
-                        <h3 class="pricing-value">549<sup>R$</sup></h3>
-                        <ul class="pricing-spec">
-                            <li>
-                                <p>ACOMPANHAMENTO INTEGRAL</p>
-                            </li>
-                            <li>
-                                <p>ESCOVA / BABYLISS</p>
-                            </li>
-                            <li>
-                                <p>PENTEADO PERSONALIZADO</p>
-                            </li>
-                            <li>
-                                <p>MAKEUP</p>
-                            </li>                            
-                        </ul>
-                        <div class="pricing-btn">
-                            <a class="btn btn-lg btn-general btn-white" href="orcamentos.html" role="button">ORÇAMENTO</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
-                    <div class="pricing-box text-center">
-                        <h4 class="pricing-title">RESIDENCIAL</h4>
-                        <h3 class="pricing-value">99<sup>R$</sup></h3>
-                        <ul class="pricing-spec">
-                            <li>
-                               <p>ESCOVA</p>
-                            </li>
-                            <li>
-                                <p>BABYLISS</p>
-                            </li>
-                            <li>
-                                <p>PENTEADO PERSONALIZADO</p>
-                            </li>                            
-                        </ul>
-                        <div class="pricing-btn">
-                            <a class="btn btn-lg btn-general btn-blue" href="orcamentos.html" role="button">ORÇAMENTO</a>
-                        </div>
-                    </div>
+                <div class="col-md-12 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                  
+                        <form action="#">
+                                <input type="text" name="full-name" placeholder="Nome" class="form-control">
+                                <input type="text" name="reason" placeholder="Assunto" class="form-control">
+                                <input type="text" name="email" placeholder="Email" class="form-control">
+                                <textarea rows="5" name="message" placeholder="Menssagem..." class="form-control"></textarea>
+                                <div id="send-btn">
+                                    <a class="btn btn-lg btn-general btn-white" href="#" role="button">ENVIAR ORÇAMENTO</a>
+                                </div>
+                            </form>
+                    
                 </div>
             </div>
         </div>
-    </div>
     <!-- End Content Box -->
 </section>
 
